@@ -46,7 +46,7 @@ const Select: Component<Prop> = (props) => {
         </span>
       </div>
       <Show when={show()}>
-        <div class="absolute z-[2] top-[60px] right-[10px] w-[200px] min-w-[100px] bg-white shadow-lg">
+        <div class="absolute z-[2] top-[50px] left-[0px] min-w-[150px] bg-white shadow-lg">
           {c()}
         </div>
       </Show>
